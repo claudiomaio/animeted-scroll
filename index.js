@@ -1,4 +1,4 @@
-var tl = new TilmeLineMax({onUpdate:updatePercentage});
+var tl = new TimeLineMax({onUpdate:updatePercentage});
 const controller = new ScrollMagic.Controller();
 
 tl.from("blockquote", .5, {x:200, opacity: 0});
